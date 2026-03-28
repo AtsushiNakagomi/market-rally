@@ -1,8 +1,8 @@
 // Market Rally - Game Logic
 // Ported from Market_Rally_game.py and MarketRallyGUI.py
 
-var CELL_SIZE = 20;
 var BOARD_SIZE = 13;
+var CELL_SIZE = Math.floor((Math.min(window.innerWidth, window.innerHeight) * 0.85) / (BOARD_SIZE * 2 + 3));
 
 var ROAD_CONNECTIONS = {
     "ST":  [90, 270],
