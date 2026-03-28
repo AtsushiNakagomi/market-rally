@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Rally</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Info label (same as tkinter info_label) -->
+    <div id="info-label">ターン: Player A | 山札残り: 0</div>
+
+    <!-- Two boards side by side (same as frame_boards) -->
+    <div id="boards-container">
+        <div class="board-wrapper">
+            <canvas id="board-a"></canvas>
+        </div>
+        <div class="board-wrapper">
+            <canvas id="board-b"></canvas>
+        </div>
+    </div>
+
+    <!-- Preview buttons (rotate and confirm appear here) -->
+    <div id="preview-buttons"></div>
+
+    <!-- Hand areas (same as frame_hands) -->
+    <div id="hands-container">
+        <div class="hand-area" id="hand-area-a">
+            <span class="hand-label">Player A</span>
+            <div id="hand-a"></div>
+        </div>
+        <div class="hand-area" id="hand-area-b">
+            <span class="hand-label">Player B</span>
+            <div id="hand-b"></div>
+        </div>
+    </div>
+
+    <script src="js/game-logic.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/ui-controller.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
