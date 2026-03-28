@@ -1,7 +1,7 @@
 // Market Rally - Game Logic
 // Ported from Market_Rally_game.py and MarketRallyGUI.py
 
-var CELL_SIZE = 28;
+var CELL_SIZE = 20;
 var BOARD_SIZE = 13;
 
 var ROAD_CONNECTIONS = {
