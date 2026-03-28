@@ -17,8 +17,9 @@ body {
 #boards-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .board-wrapper {
